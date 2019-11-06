@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.997" height="21.997" viewBox="0 0 21.997 21.997">
+    <defs>
+        <style>
+            .cls-1{fill:#5092fd}
+        </style>
+    </defs>
+    <g id="np_clock_888722_000000" transform="translate(-16.668 -16.668)">
+        <path id="Path_18" d="M27.667 19.417a8.249 8.249 0 1 1-8.249 8.249 8.274 8.274 0 0 1 8.249-8.249m0-2.749a11 11 0 1 0 11 11 11.031 11.031 0 0 0-11-11z" class="cls-1" data-name="Path 18"/>
+        <path id="Path_19" d="M52.443 46.242a1.286 1.286 0 0 1-.55-.138l-5.018-3.162v-3.368a1.031 1.031 0 1 1 2.062 0v2.2l4.056 2.543a1.085 1.085 0 0 1 .344 1.444 1.179 1.179 0 0 1-.895.481z" class="cls-1" data-name="Path 19" transform="translate(-20.24 -14.657)"/>
+        <path id="Path_20" d="M49.292 27.772a.687.687 0 1 1-1.374 0 .687.687 0 1 1 1.374 0" class="cls-1" data-name="Path 20" transform="translate(-20.938 -6.98)"/>
+        <path id="Path_21" d="M28.457 48.6a.688.688 0 0 1-1.375 0 .688.688 0 0 1 1.375 0" class="cls-1" data-name="Path 21" transform="translate(-6.978 -20.938)"/>
+        <path id="Path_22" d="M49.292 69.436a.687.687 0 1 1-1.374 0 .687.687 0 1 1 1.374 0" class="cls-1" data-name="Path 22" transform="translate(-20.938 -34.896)"/>
+        <path id="Path_23" d="M70.125 48.6a.688.688 0 0 1-1.375 0 .688.688 0 0 1 1.375 0" class="cls-1" data-name="Path 23" transform="translate(-34.896 -20.938)"/>
+    </g>
+</svg>
