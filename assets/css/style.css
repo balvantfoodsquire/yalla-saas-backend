@@ -145,13 +145,29 @@ body{
 header{
   padding-top: 20px;
 }
+.icnside{
+  float: left;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.fa-times{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    top: 10px;
+}
 
+.leftbarwd{
+   width: 10.3%;
+   display: block;
+    
+}
 #leftbar{
 /*width: 10.3%;
 float: left;
 border-right: 1px solid grey; 
  height: calc(100vh - 0px);*/
-     width: 10.3%;
+    
     float: left;
     border-right: 1px solid grey;
     height: calc(100vh - 0px);
@@ -161,6 +177,9 @@ border-right: 1px solid grey;
     left: 0;
     position: fixed;
     top: 0;
+    z-index: 9999;
+    background-color: #fff;
+    transition: 0.5s;
 }
 #rightbar{
 /*width: 89.7%;

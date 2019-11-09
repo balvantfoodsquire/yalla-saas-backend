@@ -12,12 +12,13 @@
 </head>
 <body>
 <div>
-<aside id="leftbar">
-	<div class="logo">Yalla</div>
+<aside id="leftbar" class="leftbarwd">
+	<div class="logo">Yalla </div>
+	<i class="fa fa-times d-lg-none d-md-none"></i>
 	<div class="sidebar-menu">
 		<ul>
-			<li class="active"><a href="quotes.html" >Quotes</a></li>
-			<li ><a href="index.html">Deliveries</a></li>
+			<li ><a href="quotes.html" >Quotes</a></li>
+			<li class="active"><a href="index.html" >Deliveries</a></li>
 			<li><a href="reports.html">Reports</a></li>
 			<li><a href="#setting" data-toggle="collapse" aria-expanded="false" class="">Settings</a>
 				 <ul class="collapse list-unstyled" id="setting">
@@ -28,7 +29,7 @@
                         <a href="#" >Notifications</a>
                     </li>
                     <li>
-                        <a href="setting-profile.html">profile</a>
+                        <a href="setting-profile.html">Profile</a>
                     </li>
                 </ul>
 			</li>
@@ -38,10 +39,11 @@
 </aside>
 	
 <section id="rightbar">
-<header>
+<header class="container-fluid">
 <div class="row">
-	<div class="col-lg-6">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 	<nav>
+		<i class="fa fa-bars icnside d-lg-none d-md-none"></i>
 		<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
 			<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Quotes</a>
 			
@@ -49,20 +51,21 @@
 	</nav>
 
 	</div>
-	<div class="col-lg-4">
+	<div class="col-lg-4 col-md-4 col-sm-2 col-2">
 	<!-- <form class="search">
 	  <input type="text" name="search" placeholder="Search..">
 	</form> -->
 	</div>
-	<div class="col-lg-2">
+	<div class="col-lg-2 col-md-2 col-sm-4 col-4">
 		<a href="create-quotes.html" class="btn qupte-btn">Create Quote</a>
 	</div>
 </div> 
 </header>
-<div class="row">
+<div class="container-fluid">
+<div class="row ordertble">
 	<div class="col-lg-7 col-md-7 col-sm-12 col-12  pd-r-0 border-r-1">
 	<div class="tab-content" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<div class="tab-pane fade show active table-responsive" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 						<table class="table ">
 							<thead class="thead">
 								<tr>
@@ -88,7 +91,7 @@
 									<td class="tbodytd">#12345</td>
 									<td class="tbodytd">James smith</td>
 									<td class="darf"><p>Draft</p></td>
-									<td class=""><button class="btn btn-qt">Get Quetes</button></td>
+									<td class=""><button class="btn btn-qt">Get Quutes</button></td>
 								</tr>
 								
 							</tbody>
@@ -107,27 +110,27 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 			<p class="orderuser-name">Name</p>
 			<p class="orderuser-details">James Smith</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 pd-l-0">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-6 pd-l-0">
 			<p class="orderuser-name">Contact</p>
 			<p class="orderuser-details">708-382-1944.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-			<p><span class="orderuser-name">Delivery ASAP:</span> <span class="delivery-asap">Yes</span></p>
-			<p><span class="orderuser-name">Delivery Date:</span> <span class="delivery-asap">Sep 25,2019</span></p>
+			<p class="orderuser-mb-5"><span class="orderuser-name">Delivery ASAP:</span> <span class="delivery-asap">Yes</span></p>
+			<p class="orderuser-mb-5"><span class="orderuser-name">Delivery Date:</span> <span class="delivery-asap">Sep 25,2019</span></p>
 			</div>
 			
 		</div>
 		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-12 col-12">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-1">
 				<span class="line"></span>
 			</div>
-			<div class="col-lg-5 col-md-5 col-sm-12 col-12 pd-l-0">
+			<div class="col-lg-5 col-md-5 col-sm-10 col-10 pd-l-0">
 				<div>
 					<p><span class="delivery-time">8:53 PM</span> <span class="delivery-pickup">Pickup</span></p>
 					<p class="pickup-address">
@@ -152,7 +155,7 @@
 		</div>
 		<hr>
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 table-responsive">
 				<table class="table delivery-table">
 					<tr>
 						<td><img src="assets/images/1.png"></td>
@@ -164,7 +167,7 @@
 				
 				</table>
 			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 table-responsive">
 				<table class="table delivery-table">
 					
 					<tr>
@@ -177,7 +180,7 @@
 					
 				</table>
 			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 table-responsive">
 				<table class="table delivery-table">
 					
 					<tr>
@@ -194,10 +197,12 @@
 	</div>
 </div>
 </div>
+</div>
 </section>		
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+<script src="assets/js/custome.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQmSnxp4s2uo-bmDPikjKLqAsfFsA6ZSo&libraries&libraries=places&callback=initAutocomplete"
          async defer></script>
    <script>

@@ -57,63 +57,11 @@ iPad 3
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-.mob{
-  width: 70%;
-    margin: auto;
-    display: block;
-}
-.input-search {
-    width: 170px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
-footer {
-    background-image: url(../images/footer.png);
-    background-repeat: no-repeat;
-    height: 170px;
-    padding-top: 17%;
-    background-size: cover;
-}
-footer .footerul ul {
-    display: inline-flex;
-    align-items: center;
-    float: right;
-    vertical-align: -webkit-baseline-middle;
-    /*padding-top: 10px;*/
-}
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-.mob{
-  width: 70%;
-    margin: auto;
-    display: block;
-}
-.input-search {
-    width: 170px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
-footer {
-    background-image: url(../images/footer.png);
-    background-repeat: no-repeat;
-    height: 170px;
-    padding-top: 17%;
-    background-size: cover;
-}
-footer .footerul ul {
-    display: inline-flex;
-    align-items: center;
-    float: right;
-    vertical-align: -webkit-baseline-middle;
-    /*padding-top: 10px;*/
-}
+
 }
 
 /* iPhone 6, 7, 8 ----------- */
@@ -122,14 +70,7 @@ footer .footerul ul {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-.input-search {
-    width: 215px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
+
 }
 
 /* iPhone 6+, 7+, 8+ ----------- */
@@ -138,14 +79,7 @@ footer .footerul ul {
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-.input-search {
-    width: 215px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
+
 }
 
 /* iPhone X ----------- */
@@ -154,14 +88,7 @@ footer .footerul ul {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-.input-search {
-    width: 215px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
+
 }
 
 /* Pixel 2 ----------- */
@@ -203,74 +130,141 @@ footer .footerul ul {
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-.input-search {
-    width: 215px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-}
+
 }
 
 @media (max-width:768px){
-.nav-item:last-child {
-    background-image: linear-gradient(to top, #54e0d0, #34aacf);
-    width: 40%;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 30px;
-    margin-left: 0px;
-    margin-right: 0px;
+header {
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
-  .title {
-    font-family: Lato-Regular;
-    font-size: 28.5px;
-  }
-.input-search {
-    width: 170px !important;
-  }
-.app ul {
-    display: inline;
-    align-items: center;
-    margin-top: 30px;
-    padding: 0;
+.leftbarwd{
+ display: none;
+ width: 200px;
+ transition: 0.5s !important;
 }
-footer {
-    background-image: url(../images/footer.png);
-    background-repeat: no-repeat;
-    height: 170px;
-    padding-top: 17%;
-    background-size: cover;
+#rightbar{
+ margin-left: 0%;
+
 }
-footer .footerul ul {
-    display: inline-flex;
-    align-items: center;
-    float: right;
-    vertical-align: -webkit-baseline-middle;
-    /*padding-top: 10px;*/
+.nav-tabs .nav-link{
+ font-size: 14px;
 }
-.mob{
-  height: 350px;
-    margin: auto;
-    display: block;
+.orftbl .border-r {
+     border-bottom: 2px solid grey;
+     border-right: 0;
+    height: auto !important;
 }
-.btn-search {
-    height: 47px;
+.ordertble .border-r {
+    border-bottom: 2px solid grey;
+     border-right: 0;
+    height: auto !important;
+    /* height: calc(100vh - 0px); */
 }
-.detail-div {
-     margin: 0 0; 
+.ordertble .border-r-1 {
+    border-bottom: 2px solid grey;
+     border-right: 0;
+    height: auto !important;
+    /* height: calc(100vh - 0px); */
 }
-.contact-h2 {
-    font-family: Lato-Bold;
-    font-size: 25px;
+.ordertble .pd-r-0 {
+    padding-right: 0px;
+    padding-left: 0px;
 }
-.contact-deatil-ul {
-  margin-top: 10px;
+.csmr-dtl .pd-l-0 {
+    padding-left: 15px;
 }
-.img-70 {
-    width: 50%;
+.table td, .table th {
+    padding: .50rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+}
+.order-no {
+    font-size: 13px !important;
+}
+.order-date {
+  font-size: 13px !important;
+}
+.orderuser-name  {
+ 
+    font-size: 14px;
+    margin-bottom: 5px !important;
+}
+.orderuser-details 
+ {
+    font-size: 14px;
+    margin-bottom: 5px !important;
+}
+.orderuser-mb-5{
+    margin-bottom: 5px;
+}
+.delivery-time{ font-size: 14px;}
+.pickup-address{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.mappd .pd-l-0 {
+     padding-left: 10px; 
+}
+.qupte-btn {
+    font-family: HelveticaNeue-Medium;
+    font-size: 14px;
+   float: right;
+}
+.search {
+    margin-left: 25px;
+}
+.search input[type=text]:focus {
+    width: 100%;
+    padding: 5px 11px 5px 50px;
+}
+.search input[type=text]{
+    width: 10px;
+    padding: 6px 12px 6px 50px;
+    padding: 12px 12px 10px 50px;
+    
+    background-size: 20px;
+}
+.border-r {
+    border-bottom: 2px solid grey;
+    /* height: 100vh; */
+    height: calc(100vh - 0px);
+}
+.q-m-t-6 {
+    margin-top: 0%;
+}
+.create-quotes {
+    font-size: 18px;
+}
+.cross {
+    font-size: 20px;
+}
+#tab{
+    margin-top:10px;
+}
+#tab .btn {
+padding: 4px 4px !important;
+}
+#tab a {
+    color: #5091fb;
+    font-size: 10px;
+}
+.report-icon .icnside {
+    float: left;
+    vertical-align: top;
+     margin-top: 0px; 
+}
+.report-stack {
+    height: auto;
+    margin-bottom: 10px;
+}
+.settingdis .icnside {
+    float: left;
+    vertical-align: top;
+    margin-top: 6px;
+}
+.sptext{
+    margin-top: 5px;
 }
 }
